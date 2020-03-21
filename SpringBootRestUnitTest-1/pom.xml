@@ -54,7 +54,12 @@
 		</dependency>
 
 	</dependencies>
-
+	<distributionManagement>
+		<repository>
+			<id>myMaven.write</id>
+			<url>https://mymavenrepo.com/repo/OcztLvcn98HQEjaqbdk8//</url>
+		</repository>
+	</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
