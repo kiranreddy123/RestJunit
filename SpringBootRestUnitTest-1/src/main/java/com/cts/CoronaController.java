@@ -29,7 +29,7 @@ public class CoronaController {
 	}
 
 	@PostMapping("/spreadCorona")
-	public ResponseEntity<Corona> addAllCoronas( Corona corona) {
+	public ResponseEntity<Corona> addAllCoronas(Corona corona) {
 		Corona co = cService.spreadCorona(corona);
 		return new ResponseEntity<Corona>(co, new HttpHeaders(), HttpStatus.OK);
 	}
